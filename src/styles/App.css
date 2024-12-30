@@ -1,0 +1,64 @@
+
+html {
+  background: #F7D1CD;
+}
+
+#app {
+  transition: 2s ease-in-out;
+}
+
+#app svg {
+  width: 100%;
+  height: 100%;
+  border: none;
+  transition: 2s ease-in-out;
+}
+
+text {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  fill: #F7D1CD;
+}
+
+.node rect {
+  fill: #735D78;
+  stroke: #D1B3C4;
+  stroke-width: 2px;
+  rx: 8px;
+  ry: 8px;
+}
+
+.cluster rect {
+  fill: #E8C2CA;
+  stroke: #D1B3C4;
+  stroke-width: 1.5px;
+  alpha: 0.5;
+}
+
+.node.frozen rect, .cluster.frozen rect {
+  fill: #a08cfc;
+  alpha: 0.5;
+}
+
+.node.selected rect, .cluster.selected rect {
+  fill: #f0f95c;
+  alpha: 0.5;
+}
+
+.selected text, .frozen text {
+  fill: #735D78;
+}
+
+.edgePath {
+  stroke: #B392AC;
+  fill: #B392AC;
+  stroke-width: 1.5px;
+}
+
+.edgePath.selected {
+  stroke: #f0f95c;
+  fill: #f0f95c;
+}
+
+

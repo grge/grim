@@ -1,0 +1,26 @@
+{
+  "name": "grim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dagre": "^0.7.52",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "github:dagrejs/dagre",
+    "@types/graphlib": "^2.1.12",
+    "dagre-d3": "^0.6.4"
+  }
+}

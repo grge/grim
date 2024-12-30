@@ -1,0 +1,26 @@
+
+
+- status bar
+- cycle connected subgraphs
+- cycle top-level clusters
+- cycle cluster children
+- keybinding refactor
+- fix cluster issues
+- collapse / expand clusters
+- Undo / redo command pattern
+- layout options
+- circular layout
+- bipartite layout
+- orthogonal layout?
+- node/edge search palette
+- action palette
+- node and edge tables
+- hjlk navigations select a node if no node is selected
+
+- BUG: Selecting siblings when on a source node does not work
+- BUG: strange issue with sibling selectors ordered_candidates
+    - on the initial A B C graph, moving to B, then repeatedly selecting the next
+      sibling results in cycling between B and C, but the expected behaviour is to
+      stay on C, since this is the right-most sibling. 
+- BUG: A single self-connected node can't be selected
+
